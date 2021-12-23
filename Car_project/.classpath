@@ -13,7 +13,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="D:/Hyo-Kyung/포트폴리오/Car_workspace/CarProject/WebContent/WEB-INF/lib/jstl.jar"/>
-	<classpathentry kind="lib" path="D:/Hyo-Kyung/포트폴리오/Car_workspace/CarProject/WebContent/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

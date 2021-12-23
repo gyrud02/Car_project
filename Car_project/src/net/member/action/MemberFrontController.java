@@ -85,14 +85,19 @@ public class MemberFrontController extends HttpServlet{
 				e.printStackTrace();
 			}
 			
-		//top.jsp에서 ..login링크를 클릭하여 로그인화면으로 이동하라 라는 요청이 들어 왔을때...	
-		//또는 회원가입후!.. 로그인화면으로 이동하라 라는 요청이 들어 왔을떄...
+		// top.jsp에서 login링크를 클릭하여 로그인 화면으로 이동하라 라는 요청이 들어 왔을때...	
+		// 또는 회원가입 후, 로그인 화면으로 이동하라 라는 요청이 들어 왔을떄...
 		}else if(command.equals("/MemberLogin.me")){ 
-			//페이지 이동 방식 여부 값,이동페이지 경로 값 저장 하여 리턴 해주는 객체 생성 
+			
+			//페이지 이동 방식 여부 값,이동 페이지 경로 값 저장 하여 리턴 해주는 객체 생성 
 			forward=new ActionForward();
-			//페이지 이동 방식 여부 값 false로 저장-> RequestDispatcher  forward() 방식
-			forward.setRedirect(false); //주소값 노출 안됨
-			//이동할 페이지 경로(로그인 페이지) 주소값 저장
+			System.out.println("-- 1 여기");
+			
+			//페이지 이동 방식 여부 값 false로 저장 -> RequestDispatcher forward() 방식
+			forward.setRedirect(false); // 주소값 노출 안됨
+			System.out.println("-- 2 여기");
+			
+			//이동할 페이지 경로(로그인 페이지)주소값 저장
 			forward.setPath("./CarMain.jsp?center=member/login.jsp"); 
 		
 		//login.jsp에서... "Sign in"버튼을 눌렀을때..로그인 처리 요청받기!

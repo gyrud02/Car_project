@@ -17,10 +17,11 @@ public class MemberDAO {
 	//메소드
 	//디비연결 하는메소드()
 	private Connection getConnection() throws Exception{
+		
 //		String dbUrl="jdbc:mysql://localhost:3306/jsp2";
 //		String dbId="jspid";
 //		String dbPass="jsppass";
-		Connection con=null;
+		Connection con = null;
 		//1단계 드라이버로더
 		//Class.forName("com.mysql.jdbc.Driver");
 		//2단계 디비연결
