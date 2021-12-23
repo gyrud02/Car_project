@@ -6,9 +6,13 @@
 	auth="Container"
 	type="javax.sql.DataSource"
 	driverClassName="com.mysql.jdbc.Driver"
-	url="jdbc:mysql://localhost:3306/jspbeginner"
-	username="jspid"
-	password="jsppass"
+	url="jdbc:mysql://something-take.czwf30dbx2fs.us-east-2.rds.amazonaws.com:3306/jspbeginner?useSSL=false"
+	username="admin"
+	password="kimhk0489"
 	/>
-
+<!-- 
+	 url="jdbc:mysql://localhost:3306/jspbeginner"  
+	 username="jspid"
+	 password="jsppass"
+-->
 </Context>
